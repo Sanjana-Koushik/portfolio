@@ -270,9 +270,11 @@ function About() {
         <div className="about-grid">
           <div className="about-image-wrap">
             <div className="about-image-placeholder">
-              <span className="avatar-icon">👩‍💻</span>
-              <span className="avatar-name">{data.name}</span>
-              <span className="avatar-role">Full Stack Developer</span>
+              <img
+                src="/photo.jpg"
+                alt="Sanjana S Koushik"
+                className="profile-photo"
+              />
             </div>
             <div className="about-badge glass-card">
               <span className="badge-icon">🎓</span>
