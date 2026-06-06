@@ -171,9 +171,8 @@ function Navbar({ scrolled }) {
     <nav className={`navbar${scrolled ? ' scrolled' : ''}`}>
       <div className="container">
         <div className="navbar-inner">
-          <a href="#hero" className="nav-logo">
+          <a href="#hero" className="nav-logo" aria-label="Back to top">
             <span className="bracket">&lt;</span>
-            Sanjana
             <span className="bracket">/&gt;</span>
           </a>
           <ul className={`nav-links${open ? ' open' : ''}`}>
