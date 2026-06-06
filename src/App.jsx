@@ -7,7 +7,7 @@ const data = {
   role: 'Full Stack Developer',
   tagline: 'Building beautiful, functional web experiences',
   bio: [
-    "I'm a Computer Science undergraduate at Maharaja Institute of Technology Thandavapura, passionate about crafting intuitive full-stack applications. I love bridging the gap between elegant UIs and powerful backend systems.",
+    "I'm a Computer Science & Engineering graduate from Maharaja Institute of Technology Thandavapura, passionate about crafting intuitive full-stack applications. I love bridging the gap between elegant UIs and powerful backend systems.",
     "Currently interning at TAP Academy as a Java Full Stack Developer, I've worked with React, Python, Java, and Spring Boot to build real-world projects — from AI-powered tools to IoT systems."
   ],
   contact: {
@@ -112,9 +112,9 @@ const data = {
     {
       institution: 'Maharaja Institute of Technology Thandavapura',
       degree: 'B.E in Computer Science & Engineering',
-      score: 'CGPA: 8.43',
+      score: 'CGPA: 8.59',
       period: '2022 – 2026',
-      location: 'Mysore, Karnataka',
+      location: 'Bengaluru, Karnataka',
       icon: '🎓',
     },
     {
@@ -173,7 +173,7 @@ function Navbar({ scrolled }) {
         <div className="navbar-inner">
           <a href="#hero" className="nav-logo">
             <span className="bracket">&lt;</span>
-            SSK
+            Sanjana
             <span className="bracket">/&gt;</span>
           </a>
           <ul className={`nav-links${open ? ' open' : ''}`}>
@@ -187,14 +187,7 @@ function Navbar({ scrolled }) {
                 </a>
               </li>
             ))}
-            <li>
-              <a
-                href={`mailto:${data.contact.email}`}
-                className="nav-cta"
-              >
-                Hire Me
-              </a>
-            </li>
+
           </ul>
           <button
             id="menu-toggle"
@@ -225,7 +218,7 @@ function Hero() {
             Hi, I'm <span className="name">{data.name}</span>
           </h1>
           <p className="hero-subtitle">
-            <span className="highlight">{data.role}</span> & CS Undergraduate
+            <span className="highlight">{data.role}</span> & BE Graduate
           </p>
           <p className="hero-desc">{data.tagline} — from sleek frontends to robust backends, I build it all.</p>
           <div className="hero-actions">
@@ -246,7 +239,7 @@ function Hero() {
               <span className="stat-label">Internships</span>
             </div>
             <div className="stat">
-              <span className="stat-number">8.43</span>
+              <span className="stat-number">8.59</span>
               <span className="stat-label">CGPA</span>
             </div>
           </div>
@@ -262,7 +255,6 @@ function About() {
     <section id="about" ref={ref} className="reveal">
       <div className="container">
         <div className="section-header">
-          <span className="section-tag">// about me</span>
           <h2 className="section-title">
             Who <span className="accent">I Am</span>
           </h2>
@@ -294,7 +286,7 @@ function About() {
                 <span className="detail-icon">📍</span>
                 <div>
                   <div className="detail-label">Location</div>
-                  <div className="detail-value">Mysore, Karnataka</div>
+                  <div className="detail-value">Bengaluru, Karnataka</div>
                 </div>
               </div>
               <div className="detail-item">
@@ -332,7 +324,6 @@ function Skills() {
     <section id="skills" ref={ref} className="reveal">
       <div className="container">
         <div className="section-header">
-          <span className="section-tag">// tech stack</span>
           <h2 className="section-title">
             Skills & <span className="accent">Technologies</span>
           </h2>
@@ -368,7 +359,6 @@ function Projects() {
     <section id="projects" ref={ref} className="reveal">
       <div className="container">
         <div className="section-header">
-          <span className="section-tag">// my work</span>
           <h2 className="section-title">
             Featured <span className="accent">Projects</span>
           </h2>
@@ -431,7 +421,6 @@ function Experience() {
     <section id="experience" ref={ref} className="reveal">
       <div className="container">
         <div className="section-header">
-          <span className="section-tag">// work history</span>
           <h2 className="section-title">
             Work <span className="accent">Experience</span>
           </h2>
@@ -466,7 +455,6 @@ function Education() {
     <section id="education" ref={ref} className="reveal">
       <div className="container">
         <div className="section-header">
-          <span className="section-tag">// academic background</span>
           <h2 className="section-title">
             My <span className="accent">Education</span>
           </h2>
@@ -488,7 +476,6 @@ function Education() {
         {/* Achievements */}
         <div style={{ marginTop: '80px' }}>
           <div className="section-header">
-            <span className="section-tag">// recognition</span>
             <h2 className="section-title">
               <span className="accent">Achievements</span>
             </h2>
@@ -513,7 +500,6 @@ function Contact() {
     <section id="contact" ref={ref} className="reveal">
       <div className="container">
         <div className="section-header">
-          <span className="section-tag">// get in touch</span>
           <h2 className="section-title">
             Let's <span className="accent">Connect</span>
           </h2>
