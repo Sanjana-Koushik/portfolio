@@ -1113,23 +1113,22 @@ footer {
    ============================================= */
 .scroll-indicator {
   position: fixed;
-  bottom: 32px; right: 32px;
-  width: 44px; height: 44px;
+  bottom: 36px; right: 36px;
+  width: 48px; height: 48px;
   border-radius: 50%;
-  background: rgba(220,38,38,0.12);
-  border: 1px solid rgba(220,38,38,0.3);
+  background: linear-gradient(135deg, #dc2626, #7f1d1d);
+  border: none;
   display: flex;
   align-items: center;
   justify-content: center;
   cursor: pointer;
   z-index: 50;
-  transition: var(--transition-fast);
-  backdrop-filter: blur(10px);
-  color: var(--neon-green);
-  font-size: 1.2rem;
+  transition: var(--transition-med);
+  color: #fff;
   text-decoration: none;
   opacity: 0;
   pointer-events: none;
+  box-shadow: 0 4px 20px rgba(220, 38, 38, 0.5);
 }
 
 .scroll-indicator.visible {
@@ -1138,9 +1137,8 @@ footer {
 }
 
 .scroll-indicator:hover {
-  background: rgba(220,38,38,0.28);
-  box-shadow: var(--shadow-glow-purple);
-  transform: translateY(-3px);
+  transform: translateY(-4px) scale(1.1);
+  box-shadow: 0 8px 30px rgba(220, 38, 38, 0.7);
 }
 
 /* =============================================

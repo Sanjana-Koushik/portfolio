@@ -171,10 +171,7 @@ function Navbar({ scrolled }) {
     <nav className={`navbar${scrolled ? ' scrolled' : ''}`}>
       <div className="container">
         <div className="navbar-inner">
-          <a href="#hero" className="nav-logo" aria-label="Back to top">
-            <span className="bracket">&lt;</span>
-            <span className="bracket">/&gt;</span>
-          </a>
+
           <ul className={`nav-links${open ? ' open' : ''}`}>
             {navLinks.map((link) => (
               <li key={link}>
@@ -620,7 +617,9 @@ export default function App() {
         className={`scroll-indicator${showTop ? ' visible' : ''}`}
         aria-label="Scroll to top"
       >
-        ↑
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+          <polyline points="18 15 12 9 6 15" />
+        </svg>
       </a>
     </>
   )
