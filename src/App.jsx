@@ -44,6 +44,16 @@ const data = {
   ],
   projects: [
     {
+      title: 'Interview Insights',
+      description:
+        'A web application designed to help candidates prepare for technical interviews. Features curated questions, answers, and tips across various tech topics and domains.',
+      icon: '💡',
+      tech: ['React', 'JavaScript', 'HTML', 'CSS'],
+      date: '2026',
+      github: 'https://github.com/Sanjana-Koushik/InterviewInsights',
+      live: 'https://interview-insights-tau.vercel.app/',
+    },
+    {
       title: 'AI Powered 3D Model Generator',
       description:
         'An application that generates visual 3D outputs from sketches, images, or text inputs using Python and React. Reduces time spent with multiple traditional 3D software tools.',
