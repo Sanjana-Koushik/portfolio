@@ -18,28 +18,34 @@ const data = {
   },
   skills: [
     {
-      name: 'Frontend',
-      icon: '🎨',
+      name: 'Programming',
+      icon: '💻',
       color: 'purple',
-      items: ['React', 'HTML5', 'CSS3', 'JavaScript'],
+      items: ['Java', 'Python'],
     },
     {
-      name: 'Backend & Languages',
-      icon: '⚙️',
+      name: 'Frontend',
+      icon: '🎨',
       color: 'cyan',
-      items: ['Java', 'Python', 'Spring Boot', 'MySQL'],
+      items: ['React', 'HTML', 'CSS', 'JavaScript', 'Tailwind CSS'],
+    },
+    {
+      name: 'Backend',
+      icon: '⚙️',
+      color: 'pink',
+      items: ['FastAPI', 'REST APIs'],
+    },
+    {
+      name: 'Database',
+      icon: '🗄️',
+      color: 'green',
+      items: ['MySQL', 'PostgreSQL', 'Supabase'],
     },
     {
       name: 'Core CS',
       icon: '🧠',
-      color: 'pink',
-      items: ['Data Structures', 'Algorithms', 'OOP', 'OS', 'Networks'],
-    },
-    {
-      name: 'Tools & Platforms',
-      icon: '🛠️',
-      color: 'green',
-      items: ['Git', 'GitHub', 'VS Code', 'Arduino'],
+      color: 'purple',
+      items: ['Data Structures & Algorithms', 'OOP', 'Operating Systems', 'Computer Networks'],
     },
   ],
   projects: [
